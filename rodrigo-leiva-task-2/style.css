@@ -11,6 +11,18 @@ h1 {
     top: 95px;
 }
 
+.home {
+    background-color: green;
+}
+
+.about {
+    background-color: green;
+}
+
+.contact {
+    background-color: green;
+}
+
 nav {
     text-transform: uppercase;
     text-align: right;
