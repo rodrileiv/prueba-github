@@ -6,7 +6,7 @@
 h1 {
     color: black;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 66px;
+    font-size: 10vh;
     position: relative;
     top: 95px;
 }
