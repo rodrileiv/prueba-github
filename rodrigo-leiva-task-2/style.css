@@ -78,19 +78,20 @@ div article {
     left: 25%;
     bottom: 400px;
     display: inline;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 article p {
     text-indent: 50px;
     text-align: justify;
     text-justify: inter-word;
+    width: 610px;
 }
 
-section article {
+.texto-about {
     position: relative;
-    left: 25%;
-    bottom: 400px;
+    left: 1px;
+    bottom: 40px;
     display: inline;
     line-height: 30px;
 }
@@ -98,7 +99,23 @@ section article {
 .imagen-2 {
     display: block;
     position: relative;
-    left: 80%;
+    left: 79%;
+    bottom: 250px;
+    width: 250px;
+}
+
+.texto-contact {
+    position: relative;
+    left: 25%;
+    bottom: 350px;
+    display: inline;
+    line-height: 30px;
+}
+
+.imagen-3 {
+    display: block;
+    position: relative;
+    left: 79%;
     bottom: 250px;
     width: 250px;
 }
