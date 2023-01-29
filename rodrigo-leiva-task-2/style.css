@@ -43,7 +43,7 @@ nav a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.diseño2 {
+.diseño-2 {
     border: 2px solid black;
     display: block;
     width: 100%;
@@ -56,4 +56,49 @@ section h2 {
     text-align: center;
     display: block;
     padding: 5px;
+}
+
+
+.logo {
+    display: block;
+    position: relative;
+    width: 250px;
+}
+
+.imagen-1 {
+    display: block;
+    position: relative;
+    left: 80%;
+    bottom: 250px;
+    width: 250px;
+}
+
+div article {
+    position: relative;
+    left: 25%;
+    bottom: 400px;
+    display: inline;
+    line-height: 30px;
+}
+
+article p {
+    text-indent: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+section article {
+    position: relative;
+    left: 25%;
+    bottom: 400px;
+    display: inline;
+    line-height: 30px;
+}
+
+.imagen-2 {
+    display: block;
+    position: relative;
+    left: 80%;
+    bottom: 250px;
+    width: 250px;
 }
