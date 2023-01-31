@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10vh;
+    position: relative;
+    top: 95px;
+}
+
+.home {
+    background-color: green;
+}
+
+.about {
+    background-color: green;
+}
+
+.contact {
+    background-color: green;
+}
+
+nav {
+    text-transform: uppercase;
+    text-align: right;
+    padding: 20px;
+    position: relative;
+    top: 45px; left: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 8px;
+    background-color: blue;
+    display: inline-block;
+    box-shadow: 3px 3px gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.diseño-2 {
+    border: 2px solid black;
+    display: block;
+    width: 100%;
+    height: 450px;
+}
+
+
+section h2 {
+    border: 2px solid black;
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+
+
+.logo {
+    display: block;
+    position: relative;
+    width: 250px;
+}
+
+.imagen-1 {
+    display: block;
+    position: relative;
+    left: 80%;
+    bottom: 250px;
+    width: 250px;
+}
+
+div article {
+    position: relative;
+    left: 25%;
+    bottom: 400px;
+    display: inline;
+    line-height: 35px;
+}
+
+article p {
+    text-indent: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 610px;
+}
+
+.texto-about {
+    position: relative;
+    left: 1px;
+    bottom: 40px;
+    display: inline;
+    line-height: 30px;
+}
+
+.imagen-2 {
+    display: block;
+    position: relative;
+    left: 79%;
+    bottom: 250px;
+    width: 250px;
+}
+
+.texto-contact {
+    position: relative;
+    left: 25%;
+    bottom: 350px;
+    display: inline;
+    line-height: 30px;
+}
+
+.imagen-3 {
+    display: block;
+    position: relative;
+    left: 79%;
+    bottom: 250px;
+    width: 250px;
+}
