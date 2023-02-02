@@ -241,3 +241,16 @@ ol li {
     align-content: center;
     width: 100%;
 }
+
+.texto-about {
+    display: flex;
+    flex-direction:initial;
+    flex-wrap: wrap;
+    justify-content: initial;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
