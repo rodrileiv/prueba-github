@@ -34,13 +34,11 @@ header img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .botones {
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    text-decoration: none;
+    font-size: 30px;
+    font-family: fantasy;
     background: #b1dae4;
     padding: 5px;
     border: 2px solid rgb(192, 141, 32);
@@ -54,14 +52,39 @@ header img {
 }
 
 .diseño-2 {
-    width: 200px;
+    width: 350px;
+    height: 150px;
 }
 .imagen-1 {
-    width: 200px;
+    width: 350px;
+    height: 150px;
 }
 .imagen-2 {
     width: 200px;
 }
 .imagen-3 {
     width: 200px;
+}
+
+.contenedor-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.h2 {
+    font-size: 2rem;
+}
+
+dl dt {
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+dl dd {
+    text-indent: 25px;
 }
