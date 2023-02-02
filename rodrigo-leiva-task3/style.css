@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     text-decoration: none;
 }
 
@@ -19,7 +17,7 @@ body {
     align-items: flex-start;
     align-content: flex-start;
     width: 100%;
-    font-size: 2rem;
+    font-size: 6vh;
     font-family: fantasy;
     color: rgb(216, 186, 14);
     text-shadow: 2px 2px 4px red;
@@ -37,8 +35,8 @@ header img {
 }
 
 .botones {
-    font-size: 30px;
-    font-family: fantasy;
+    font-size: 25px;
+    font-family:monospace;
     background: #b1dae4;
     padding: 5px;
     border: 2px solid rgb(192, 141, 32);
@@ -77,14 +75,145 @@ header img {
 }
 
 .h2 {
-    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 4vh;
+    font-family: monospace;
+    color: black;
 }
 
 dl dt {
-    font-size: 2rem;
-    font-family: cursive;
+    font-size: 4vh;
+    font-family: monospace;
+    color: rgb(56, 18, 122);
+    /* text-shadow: 2px 2px 4px red; */
 }
 
 dl dd {
     text-indent: 25px;
+    font-size: 3vh;
+    font-family: cursive;
+    color: black;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+.h2-game {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 4vh;
+    font-family: monospace;
+    color: black;
+}
+
+.tabla {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+tr {
+    padding: 35px;
+    margin: 35px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 35px;
+    margin: 35px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 25px;
+    background-color: blanchedalmond;
+}
+
+td {
+    padding: 35px;
+    margin: 35px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    background-color: blanchedalmond;
+}
+
+.contenedor-game {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+.h2-rules {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 4vh;
+    font-family: monospace;
+    color: black;
+}
+
+.texto-rules {
+    display: flex;
+    flex-direction:initial;
+    flex-wrap: wrap;
+    justify-content: initial;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 4vh;
+    font-family: monospace;
+    color: black;
+}
+
+div p {
+    text-indent: 25px;
+}
+
+ol {
+    display: flex;
+    flex-direction:initial;
+    flex-wrap: wrap;
+    justify-content: initial;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 4vh;
+    font-family: monospace;
+    color: black;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+.li-rules {
+    list-style-type: lower-alpha;
+}
+.li-circle {
+    list-style-type: circle;
+}
+.li-libre {
+    list-style-type:none;
 }
