@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("./images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.contenedor-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    font-size: 6vh;
+    font-family: fantasy;
+    color: rgb(216, 186, 14);
+    text-shadow: 2px 2px 4px red;
+}
+
+header img {
+    width: 165px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botones {
+    font-size: 25px;
+    font-family:monospace;
+    background: #b1dae4;
+    padding: 5px;
+    border: 2px solid rgb(192, 141, 32);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.diseño-2 {
+    width: 350px;
+    height: 150px;
+}
+.imagen-1 {
+    width: 350px;
+    height: 150px;
+}
+.imagen-2 {
+    width: 350px;
+    height: 150px;
+}
+.imagen-3 {
+    width: 350px;
+    height: 150px;
+}
+
+.contenedor-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.h2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 4vh;
+    font-family: monospace;
+    color: black;
+}
+
+dl dt {
+    font-size: 4vh;
+    font-family: monospace;
+    color: rgb(56, 18, 122);
+    /* text-shadow: 2px 2px 4px red; */
+}
+
+dl dd {
+    text-indent: 25px;
+    font-size: 3vh;
+    font-family: cursive;
+    color: black;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+.h2-game {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 4vh;
+    font-family: monospace;
+    color: black;
+}
+
+.tabla {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+tr {
+    padding: 35px;
+    margin: 35px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 35px;
+    margin: 35px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 25px;
+    background-color: blanchedalmond;
+}
+
+td {
+    padding: 35px;
+    margin: 35px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    background-color: blanchedalmond;
+}
+
+.contenedor-game {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+.h2-rules {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+.texto-rules {
+    display: flex;
+    flex-direction:initial;
+    flex-wrap: wrap;
+    justify-content: initial;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+div p {
+    text-indent: 25px;
+}
+
+ol {
+    display: flex;
+    flex-direction:initial;
+    flex-wrap: wrap;
+    justify-content: initial;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+.li-rules {
+    list-style-type: lower-alpha;
+}
+.li-circle {
+    list-style-type: circle;
+}
+.li-libre {
+    list-style-type:none;
+}
+
+
+.contenedor-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+
+.contenedor-about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.texto-about {
+    display: flex;
+    flex-direction:initial;
+    flex-wrap: wrap;
+    justify-content: initial;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
