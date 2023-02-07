@@ -52,18 +52,22 @@ header img {
 .diseño-2 {
     width: 350px;
     height: 150px;
+    padding: 20px;
 }
 .imagen-1 {
     width: 350px;
     height: 150px;
+    padding: 20px;
 }
 .imagen-2 {
     width: 350px;
     height: 150px;
+    padding: 20px;
 }
 .imagen-3 {
     width: 350px;
     height: 150px;
+    padding: 20px;
 }
 
 .contenedor-main {
@@ -295,3 +299,39 @@ form > p {
 fieldset {
     border:3px solid #c08414;
     }
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .tabla, tr, th, td {
+        align-content: flex-start;
+        width: 100%; 
+        border-collapse: collapse; 
+    }
+    tr:nth-of-type(odd) { 
+        background: blanchedalmond; 
+    }
+    th { 
+        background: #333; 
+        color: white; 
+        font-size: medium; 
+    }
+    td, th { 
+        padding: 3px;
+        margin: 2px; 
+        border: 1px solid #000000; 
+        text-align: left; 
+    }
+    h5 {
+        font-size: large;
+    }
+
+    .diseño-2, .imagen-1, .imagen-2, .imagen-3 {
+        width: 275px;
+        padding: 20px;
+    }
+}
+
+
+/* @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+} */
