@@ -294,6 +294,11 @@ form {
 
 form > p {
     font-size: x-large;
+    font-weight: bold
+}
+
+#AJ-Katzenmaier, #Howard-A-Yeager, #Green-Bay, #Marjorie-P-Hart, #North, #South {
+    margin: 10px;
 }
 
 fieldset {
