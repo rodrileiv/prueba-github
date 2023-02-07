@@ -26,6 +26,105 @@
                 <a href="./contact.html">Contact</a>
             </div>
         </nav>
+
+        <div class="h2-register">
+            <h2>Registration Form</h2>
+        </div>
+        <form action="./show-data.html" method="get">
+            <fieldset id="datos-generales" >
+                <label for="name">Player´s First Name: </label>
+                <input type="text" name="name" id="name">
+                <label for="l-name">Last Name: </label>
+                <input type="text" name="l-name" id="l-name"><br><br>
+                <label for="adress">Street Address: </label>
+                <input type="text" name="adress" id="adress">
+                <label for="zip-code">Zip Code: </label>
+                <input type="number" name="zip-code" id="zip-code"><br><br>
+                <label for="birthday">Birth Date (mm/dd/yyyy):</label>
+                <input type="date" name="birthday" id="birthday">
+                <label for="gender">Gender: Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="male" value="male"><br><br>
+                <label for="grade">Grade: </label>
+                <input type="radio" name="grade" id="pre-school" value="pre-school">
+                <label for="grade">Pre-School</label>
+                <input type="radio" name="grade" id="1st" value="1st">
+                <label for="grade">1st</label>
+                <input type="radio" name="grade" id="2nd" value="2nd">
+                <label for="grade">2nd</label>
+                <input type="radio" name="grade" id="3rd" value="3rd">
+                <label for="grade">3rd</label>
+                <input type="radio" name="grade" id="4th" value="4th">
+                <label for="grade">4th</label>
+                <input type="radio" name="grade" id="5th" value="5th">
+                <label for="grade">5th</label>
+            </fieldset>
+
+            <p>Which elementary school do you live near?</p>          
+            <p>Closest School:</p>
+
+            <fieldset id="escuela-cercana" >
+                <input type="radio" name="closest-school" id="AJ Katzenmaier" value="AJ Katzenmaier">
+                <label for="closest-school">AJ Katzenmaier </label>
+                <input type="radio" name="closest-school" id="Marjorie P Hart" value="Marjorie P Hart">
+                <label for="closest-school">Marjorie P Hart </label><br><br>
+                <input type="radio" name="closest-school" id="Greenbay" value="Greenbay">
+                <label for="closest-school">Greenbay </label>
+                <input type="radio" name="closest-school" id="North Elementary" value="North Elementary">
+                <label for="closest-school">North Elementary </label><br><br>
+                <input type="radio" name="closest-school" id="Howard A Yeager" value="Howard A Yeager">
+                <label for="closest-school">Howard A Yeager </label>
+                <input type="radio" name="closest-school" id="South Elementary" value="South Elementary">
+                <label for="closest-school">South Elementar</label>
+            </fieldset>   
+
+            <p>What position(s) do you normally play? (check all that apply)</p>
+
+            <fieldset id="posicion-preferida" >
+                <input type="checkbox" name="position" id="Forward" value="Forward">
+                <label for="position">Forward</label>
+                <input type="checkbox" name="position" id="Midfield" value="Midfield">
+                <label for="position">Midfield</label><br><br>
+                <input type="checkbox" name="position" id="Defense" value="Defense">
+                <label for="position">Defense</label>
+                <input type="checkbox" name="position" id="Goalkeeper" value="Goalkeeper">
+                <label for="position">Goalkeeper</label>
+            </fieldset>
+
+            <p>Uniform Size:</p>
+
+            <fieldset id="talle-uniforme">
+                <input type="radio" name="uniform-size" id="Youth Small" value="Youth Small">
+                <label for="uniform-size">Youth Small </label>
+                <input type="radio" name="uniform-size" id="Medium" value="Medium">
+                <label for="uniform-size">Medium </label><br><br>
+                <input type="radio" name="uniform-size" id="Youth Medium" value="Youth Medium">
+                <label for="uniform-size">Youth Medium </label>
+                <input type="radio" name="uniform-size" id="Large" value="Large">
+                <label for="uniform-size">Large </label><br><br>
+                <input type="radio" name="uniform-size" id="Youth Large" value="Youth Large">
+                <label for="uniform-size">Youth Large </label>
+                <input type="radio" name="uniform-size" id="Extra-Large" value="Extra-Large">
+                <label for="uniform-size">Extra-Large </label><br><br>
+                <input type="radio" name="uniform-size" id="Small" value="Small">
+                <label for="uniform-size">Small</label>
+            </fieldset>
+
+            <p>Permission to Play</p>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL).
+            In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities,
+            I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant´s participation in the programand/orbeing trasported to or from MDHL sponsored activities, wich transportation.</p>
+            <p>By signing below, I herebyagre andauthorizethe above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+
+            <fieldset id="datos-finales">
+                <label for="signature">Parent/GuardianSignature: </label>
+                <input type="text" name="signature" id="signature"><br><br>
+                <label for="date">Date: </label>
+                <input type="date" name="date" id="date" value="date-final"><br><br>
+                <input type="submit" value="submit" formtarget="_blank">
+            </fieldset>
+        </form>
     </main>
 </body>
 </html>
